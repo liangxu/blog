@@ -196,17 +196,12 @@ ul.posts {
     margin-bottom: 1em;
   }
 
-.maroon::selection {
-    background:maroon; 
-    color:#FF9966;
+::-moz-selection {
+    background-color: #ff6200;
+    color: #fff;
 }
 
-.maroon::-moz-selection {
-    background:maroon; 
-    color:#FF9966;
-}
-
-.maroon::-webkit-selection {
-    background:maroon;
-    color:#FF9966;
+::selection {
+    background-color: #ff6200;
+    color: #fff;
 }
