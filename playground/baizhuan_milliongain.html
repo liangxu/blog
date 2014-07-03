@@ -64,8 +64,8 @@ body {
 <script>
 
 var margin = {top: 40, right: 0, bottom: 10, left: 0},
-    width = document.body.clientWidth - margin.left - margin.right,
-    height = document.body.clientHeight - margin.top - margin.bottom;
+    width = window.innerWidth - margin.left - margin.right,
+    height = window.innerHeight - margin.top - margin.bottom;
 
 var formatPercent = d3.format(".0%");
 
