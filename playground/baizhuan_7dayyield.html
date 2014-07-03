@@ -91,7 +91,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>sevendayYield:</strong> <span style='color:red'>" + d.sevendayYield + "</span>";
+    return "<span style='color:red'>"  + d.sevendayYield + "</span>@<span style='color:green'>" +d.date + "</span>";
   })
 
 var svg = d3.select("body").append("svg")
